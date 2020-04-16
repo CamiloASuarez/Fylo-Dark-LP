@@ -1,13 +1,117 @@
+* {
+ /*  border: 1px solid greenyellow; */
+  margin: 0;
+  padding: 0;
+
+}
 body {
-  background: springgreen;
+  display: inline;
+  width: 1440px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color:  hsl(217, 28%, 15%);
 }
-header {
-  background-color: steelblue;
+.header__container {
+  margin: 72px 80px ;
+  display: flex;
+  justify-content: space-between;
 }
-section {
-  background-color: yellow;
-  background-image: url("./images/profile-2.jpg");
+.nav_header {
+  display: flex;
+  /* border: 2px solid aquamarine; */
+  align-items: center;
+  justify-content: inherit;
+  width: 273px;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+.main {
+  background-color: hsl(217, 28%, 15%);
+/*   height: 903px;*/
+ /*  border: 1px solid yellow ; */
+  display: flex;
+  justify-content: center;
+}
+.container__home {
+  color: white;
+ /*  border: 2px solid rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  z-index: 2;
+}
+.container__home--title {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  margin-top: 48px;
+  font-weight: 700;
+  max-width: 681px;
+  height: 103px;
+}
+.container__home--description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  height: 118px;
+}
+.container__home--button {
+  width: 282px;
+  height: 58px;
+  border-radius: 30px;
+  background: linear-gradient(hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+  font-weight: 700;
+  color: white;
+  border: none;
+}
+.curve img {
+ 
+  width: 100%; 
+
+
+ margin-top: -264px;
+
+}
+.services {
+  background-color: hsl(218, 28%, 13%);
+/*   border: 1px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: -4px;
+}
+.container__services {
+  width: 878px;
+/*   border: 1px solid orange; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container__services--items {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  align-items: center;
+/*   border: 1px solid yellow; 
+ */  text-align: center;
+  margin-bottom: 95px;
+}
+.icon__item {
+  height: 80px;
+}
+.container__services--items p {
+  margin-top: 12px;
+}
+.icon__item {
+  margin-bottom: 30px;
 }
 footer {
-  background-color: black;
+  background-color: red;
 }
