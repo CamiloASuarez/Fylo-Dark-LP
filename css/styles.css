@@ -4,6 +4,10 @@ body {
 header {
   background-color: steelblue;
 }
+.section {
+  background-color: red;
+  background-image: url("/images/profile-2.jpg");
+}
 footer {
   background-color: black;
 }
