@@ -2,7 +2,6 @@
  /*  border: 1px solid greenyellow; */
   margin: 0;
   padding: 0;
-
 }
 body {
   display: inline;
@@ -72,12 +71,8 @@ ul li a {
   border: none;
 }
 .curve img {
- 
   width: 100%; 
-
-
- margin-top: -264px;
-
+  margin-top: -264px;
 }
 .services {
   background-color: hsl(218, 28%, 13%);
