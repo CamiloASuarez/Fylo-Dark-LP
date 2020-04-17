@@ -27,6 +27,10 @@ ul li a {
   text-decoration: none;
   color: white;
 }
+
+/*--------------------------------------------------------------------------------------------
+-------------------------------HOME MAIN SECTION ---------------------------------------------
+--------------------------------------------------------------------------------------------*/
 .main {
   background-color: hsl(217, 28%, 15%);
 /*   height: 903px;*/
@@ -73,6 +77,10 @@ ul li a {
   width: 100%; 
   margin-top: -264px;
 }
+
+/*--------------------------------------------------------------------------------------------
+-------------------------------SERVIES SECTION------------------------------------------------
+--------------------------------------------------------------------------------------------*/
 .services {
   background-color: hsl(218, 28%, 13%);
 /*   border: 1px solid blue; */
@@ -154,21 +162,24 @@ ul li a {
   margin-left: 57px;
   color: hsl(176, 68%, 64%);
 }
+/*
 .testimonies {
   background-color: hsl(217, 27%, 13%);
- /*  width: 1440px;
- border: 1px solid hotpink; */
+  width: 1440px;
+ border: 1px solid hotpink; 
   display: flex;
   justify-content: center;
   height: 560px;
 }
 .container_card {
   width: 1160px;
- 
   flex-wrap: wrap;
- /*  border: 1px solid steelblue; */
+  border: 1px solid steelblue; 
   display: flex;
   justify-content: space-between;
+}
+.theconter {
+
 }
 .container__testimonies {
   background-color: hsl(219, 30%, 18%);
@@ -179,8 +190,12 @@ ul li a {
   padding: 0px 1px;
   display: flex;
   align-items: center;
-  /* border: 1px solid springgreen ; */
-}
+ border: 1px solid springgreen ;
+}*/
+
+/*--------------------------------------------------------------------------------------------
+-------------------------------TESTIMONIES CARDS-----------------------------------------------
+--------------------------------------------------------------------------------------------*/
 .card__details--testimony {
   color: white;
   padding: 20px 28px 20px 28px ;
@@ -190,8 +205,6 @@ ul li a {
   height: 30px;
   width: 27px;
   margin-top: 25px;
-}
-.card__details--people p {
 }
 .card__details--user {
   display: flex;
@@ -218,6 +231,144 @@ ul li a {
   color: white;
   width: 150px;
 }
-footer {
-  background-color: red;
+/*
+.contact {
+  background-color:hsl(218, 28%, 13%);
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container__contact {
+  border: 1px solid lawngreen;
+  background-color: hsl(217, 28%, 15%);
+  width: 860px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.test {
+  background-color:hsl(218, 28%, 13%);
+/*   border: 1px solid yellow;  */
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.test__container {
+/*   border: 1px solid lawngreen;  */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 360px;
+  justify-content: center;
+}
+.card__item {
+  background-color: hsl(219, 30%, 18%);
+/*   border: 1px solid red; */
+  border-radius: 10px;
+  width:  360px;
+  height: 200px;
+  margin: 14px;
+  background-color: hsl(219, 30%, 18%);
+  box-shadow: 7px 7px 7px 0px hsl(216, 53%, 9%);
+}
+
+/*--------------------------------------------------------------------------------------------
+-------------------------------FOOTER AND CONTACT SECTION-------------------------------------
+--------------------------------------------------------------------------------------------*/
+.container__contact {
+  width: 860px;
+  height: 275px;
+ /*  border: 1px solid springgreen; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: hsl(217, 28%, 15%);
+  box-shadow: 7px 7px 7px 0px hsl(216, 53%, 5%);
+  border-radius: 12px;
+  margin-top: -200px;
+  margin-bottom: 90px;
+}
+.compact {
+ /*  border: 1px solid hotpink; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.compact h1 {
+  margin-bottom: 25px;
+}
+.compact p {
+  margin-bottom: 37px;
+}
+
+.format__contact input{
+  border-radius: 40px;
+  height: 50px;
+  width: 480px;
+  border: none;
+  text-indent: 39px;
+  margin-right: 20px;
+}
+.format__contact button {
+  border-radius: 30px;
+  background: linear-gradient(hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+  height: 50px;
+  width: 200px;
+  font-weight: 700;
+  color: white;
+  border: none;
+}
+.footer__container {
+ /*  border: 1px solid springgreen; */
+  width: 100%;
+  height: 513px;
+  background-color: hsl(216, 53%, 9%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__container--info {
+  display: flex;
+  flex-direction: column;
+  width: 1230px;
+  justify-content: space-around;
+/*   border: 1px solid greenyellow;  */
+  align-items: center;
+}
+.prueba {
+  display: flex;
+  justify-content: space-between;
+  width: 1230px;
+  margin-top: 30px;
+}
+.l {
+  width: 100%;
+/*   border: 1px solid orchid; */
+  margin-bottom: 3  0px;
+}
+.box1 {
+  display: flex;
+  width: 360px;
+}
+.icon_margin{
+  padding-right: 20px;
+}
+.box2 {
+  line-height: 222%;
+}
+.box4__list,
+.box3__list {
+  text-decoration: none;
+  list-style: none;
+  line-height: 222%;
+}
+.box5 i {
+  padding: 8px;
 }
